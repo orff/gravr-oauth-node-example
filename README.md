@@ -16,7 +16,7 @@ dependencies.
 
 ```bash
 $ git clone https://github.com/orff/gravr-oauth-client-example.git
-$ cd gravr-oauth-client-example
+$ cd gravr-oauth-node-example
 $ npm install
 ```
 
