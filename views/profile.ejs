@@ -1,0 +1,15 @@
+<p>
+
+<h2><%= user.username %>, here is your GRAVR profile</h2>
+
+ID: <%= user.id %><br/>
+Username: <%= user.username %><br/>
+Email: <%= user.email %><br/>
+Hash: <%= user.hash %><br/>
+Preferences: <%= JSON.stringify(user.preferences) %><br/>
+Metrics: <%= JSON.stringify(user.metrics) %><br/>
+</p>
+
+<p>
+<a href="/aframe">See A Frame example</a>
+</p>

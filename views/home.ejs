@@ -1,0 +1,10 @@
+
+<h2>Welcome</h2>
+<% if (!user) { %>
+	<p>Please <a href="/login">log in to gravr and get your profile</a></p>
+	<p>or</p>
+	<p>See <a href="/aframe">A Frame example</a>  without logging in</p> 
+<% } else { %>
+	<p>Logged in as <%= user.username %>. View your <a href="/profile">gravr profile</a>.</p>
+	<p>or <a href="/logout">log out</a>.</p>
+<% } %>
